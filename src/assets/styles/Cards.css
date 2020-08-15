@@ -1,0 +1,70 @@
+.main-title {
+  color: #fff;
+  text-align: center;
+  margin: auto;
+}
+
+.danger {
+  background-color: #e4575c;
+}
+
+.recover {
+  background-color: #fff;
+}
+
+.recover .card_header-icon h2,
+.recover .card_header-icon p,
+.recover .card-info h2,
+.recover .card-info p {
+  color: #3a3c4e;
+}
+
+.death {
+  background-color: #3a3c4e;
+}
+
+.card {
+  width: 25%;
+  height: 120px;
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.card_header-icon {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card_header-icon h2 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-info h2 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.card-info p {
+  color: #fff;
+  font-size: 18px;
+}

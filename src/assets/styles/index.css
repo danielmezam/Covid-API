@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #2d2f3e;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.cards {
+  width: 80%;
+  padding: 20px;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.word-cards {
+  width: 100%;
+  padding: 0;
+}
+
+.world-info {
+  width: 80%;
+  margin: auto;
+  margin-top: 90px;
+}
+
+.world-info h2 {
+  color: #fff;
+  margin: auto;
+  text-align: center;
+}
