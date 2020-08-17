@@ -67,7 +67,7 @@ function App() {
       </div>
       <div className="world-info">
         <h2>Covid in the Wolrd</h2>
-        <div className="cards word-cards">
+        <div className=" cards-container word-cards">
           <Cards data={WorldData[0]} isVisible={true} />
         </div>
       </div>

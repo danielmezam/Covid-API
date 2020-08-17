@@ -1,7 +1,18 @@
+.cards-group {
+  width: 80%;
+  padding: 20px;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .main-title {
   color: #fff;
   text-align: center;
   margin: auto;
+  margin-top: 40px;
 }
 
 .danger {

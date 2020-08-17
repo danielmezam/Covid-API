@@ -18,36 +18,38 @@ const Cards = ({ isVisible, data, title }) => {
 
   return (
     <React.Fragment>
-      <div className="card danger">
-        <div className="card_header-icon">
-          <h2>{countryValue}</h2>
-          <img src={confirmed} alt="plus" />
+      <div className="cards-group">
+        <div className="card danger">
+          <div className="card_header-icon">
+            <h2>{countryValue}</h2>
+            <img src={confirmed} alt="plus" />
+          </div>
+          <div className="card-info">
+            <h2>Confirmed cases: </h2>
+            <p>{data.confirmed}</p>
+          </div>
         </div>
-        <div className="card-info">
-          <h2>Confirmed cases: </h2>
-          <p>{data.confirmed}</p>
-        </div>
-      </div>
 
-      <div className="card recover">
-        <div className="card_header-icon">
-          <h2>{countryValue}</h2>
-          <img src={recovered} alt="plus" />
+        <div className="card recover">
+          <div className="card_header-icon">
+            <h2>{countryValue}</h2>
+            <img src={recovered} alt="plus" />
+          </div>
+          <div className="card-info">
+            <h2>Recovered people: </h2>
+            <p>{data.recovered}</p>
+          </div>
         </div>
-        <div className="card-info">
-          <h2>Recovered people: </h2>
-          <p>{data.recovered}</p>
-        </div>
-      </div>
 
-      <div className="card death">
-        <div className="card_header-icon">
-          <h2>{countryValue}</h2>
-          <img src={death} alt="plus" />
-        </div>
-        <div className="card-info">
-          <h2>Confirmed deaths: </h2>
-          <p>{data.deaths}</p>
+        <div className="card death">
+          <div className="card_header-icon">
+            <h2>{countryValue}</h2>
+            <img src={death} alt="plus" />
+          </div>
+          <div className="card-info">
+            <h2>Confirmed deaths: </h2>
+            <p>{data.deaths}</p>
+          </div>
         </div>
       </div>
     </React.Fragment>
